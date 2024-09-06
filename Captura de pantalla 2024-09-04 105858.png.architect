@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.9">
+ <project-name>Captura de pantalla 2024-09-04 105858.png</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="PlayPen Database" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB1" populated="true" UUID="a47eb556-1ecd-49cb-b970-39d4ca1e3ea6" name="cliente" objectType="TABLE" physicalName="cliente" >
+   <remarks></remarks>
+   <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL2" populated="true" UUID="9b668862-0daf-49f2-9724-08a28c0f9237" autoIncrement="true" autoIncrementSequenceName="cliente_id_cliente_seq" defaultValue="" name="id_cliente" nullable="0" physicalName="id_cliente" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks>sera numero comsecutivos</remarks>
+    </column>
+    <column id="COL3" populated="true" UUID="ee4106c8-5b0d-4d69-a641-21226b3f0da1" autoIncrement="false" autoIncrementSequenceName="cliente_paterno_seq" defaultValue="" name="paterno" nullable="0" physicalName="paterno" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>apellido paterno del cliente</remarks>
+    </column>
+    <column id="COL4" populated="true" UUID="dd0007e7-9aaa-4017-ac1e-13e84833c850" autoIncrement="false" autoIncrementSequenceName="cliente_materno_seq" defaultValue="" name="materno" nullable="0" physicalName="materno" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>apellido materno</remarks>
+    </column>
+    <column id="COL5" populated="true" UUID="7ed344e8-00cf-4392-b321-37db8a05920a" autoIncrement="false" autoIncrementSequenceName="cliente_num_dni_seq" defaultValue="" name="num_dni" nullable="0" physicalName="num_dni" precision="8" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>DNI del estudiante
+</remarks>
+    </column>
+    <column id="COL6" populated="true" UUID="4303e873-5871-4dd5-8d85-6e7eec921333" autoIncrement="false" autoIncrementSequenceName="cliente_codigo_seq" defaultValue="" name="codigo" nullable="0" physicalName="codigo" precision="12" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>codigo del estudiante</remarks>
+    </column>
+    <column id="COL7" populated="true" UUID="e1fc1920-b174-415f-bcdb-e1bbdbf5c919" autoIncrement="false" autoIncrementSequenceName="cliente_num_celular_seq" defaultValue="" name="num_celular" nullable="0" physicalName="num_celular" precision="15" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>numero de lular del estudiante
+</remarks>
+    </column>
+    <column id="COL8" populated="true" UUID="1ce41750-6b78-4d90-9631-65970d71d281" autoIncrement="false" autoIncrementSequenceName="cliente_sexo_seq" defaultValue="" name="sexo" nullable="0" physicalName="sexo" precision="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>M masculino
+F femenino
+O Otros</remarks>
+    </column>
+    <column id="COL9" populated="true" UUID="e7c8e4c0-b651-4267-bd04-b2eed7b24014" autoIncrement="false" autoIncrementSequenceName="cliente_correo_seq" defaultValue="" name="correo" nullable="0" physicalName="correo" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>correo del clinete</remarks>
+    </column>
+    <column id="COL10" populated="true" UUID="9799214d-5fcc-4751-aede-a9d3e0dfcf0b" autoIncrement="false" autoIncrementSequenceName="cliente_est_civil_seq" defaultValue="" name="est_civil" nullable="0" physicalName="est_civil" precision="10" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>S soltero
+C casado
+V viudo
+D divorciado
+K Conviviente</remarks>
+    </column>
+    <column id="COL11" populated="true" UUID="7dc91370-41a3-4563-b9bf-ca190539d524" autoIncrement="false" autoIncrementSequenceName="cliente_nombres_seq" defaultValue="" name="nombres" nullable="0" physicalName="nombres" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>nomnbre del estudiante</remarks>
+    </column>
+    <column id="COL12" populated="true" UUID="959f975f-d864-4a89-9349-1b1c66be27a8" autoIncrement="false" autoIncrementSequenceName="cliente_nombres_seq" defaultValue="" name="fecha_nacimiento" nullable="0" physicalName="fecha_nacimiento" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks>fecha de naciemiento del estudiante</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB13" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX13" populated="true" UUID="b0476a47-8742-4cab-94d2-3730345500a9" clustered="false" name="cliente_pk" physicalName="cliente_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC14" populated="true" UUID="4b9d8cc6-4ca1-4575-89b9-3364b4c92f7c" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="id_cliente" physicalName="id_cliente" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB15" populated="true" UUID="ecd4a96c-6477-47a7-b363-ef7bb7665db1" name="Cuenta_bancaria" objectType="TABLE" physicalName="Cuenta_bancaria" >
+   <remarks></remarks>
+   <folder id="FOLTAB151" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL16" populated="true" UUID="9e0780a4-cd5c-452e-bad8-e052289f8eb0" autoIncrement="true" autoIncrementSequenceName="Cuenta_bancaria_id_cuenta_bancaria_seq" defaultValue="" name="id_cuenta_bancaria" nullable="0" physicalName="id_cuenta_bancaria" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks>nmm consecutivo</remarks>
+    </column>
+    <column id="COL17" populated="true" UUID="83c3d8da-ad5f-4da6-8bd4-c56fa38da70f" autoIncrement="false" autoIncrementSequenceName="Cuenta_bancaria_num_cuenta_seq" defaultValue="" name="num_cuenta" nullable="0" physicalName="num_cuenta" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL18" populated="true" UUID="995822ca-1ff0-4f5c-a082-53fdc0f89ecb" autoIncrement="false" autoIncrementSequenceName="Cuenta_bancaria_fecha inscripvion_seq" defaultValue="" name="fecha inscripvion" nullable="0" physicalName="fecha inscripvion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks>inicio</remarks>
+    </column>
+    <column id="COL19" populated="true" UUID="66240a38-b204-47b6-a15c-29cd870dedc7" autoIncrement="false" autoIncrementSequenceName="Cuenta_bancaria_fecha_caducidad_seq" defaultValue="" name="fecha_caducidad" nullable="0" physicalName="fecha_caducidad" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks>fecha de caducidad</remarks>
+    </column>
+    <column id="COL20" populated="true" UUID="d9672512-8569-44b4-9d8f-f7cbce0b63f6" autoIncrement="false" autoIncrementSequenceName="Cuenta_bancaria_estado_seq" defaultValue="" name="estado" nullable="0" physicalName="estado" precision="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>1 vigente
+2 cogelado
+</remarks>
+    </column>
+    <column id="COL21" populated="true" UUID="b0b51d74-814f-4ef0-a951-8df9998d5f3e" autoIncrement="false" autoIncrementSequenceName="Cuenta_bancaria_tipo_cuenta _seq" defaultValue="" name="tipo_cuenta " nullable="0" physicalName="tipo_cuenta " precision="2" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>ch cuenta de ahoros
+ch cuenta de credito
+</remarks>
+    </column>
+    <column id="COL22" populated="true" UUID="dde0cbc7-aaec-4127-9200-46b40143fba2" autoIncrement="false" autoIncrementSequenceName="Cuenta_bancaria_tipo_moneda_seq" defaultValue="" name="tipo_moneda" nullable="0" physicalName="tipo_moneda" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>moneda</remarks>
+    </column>
+    <column id="COL23" populated="true" UUID="fd57fe11-eebe-48c0-a87b-31a69c71d2d8" autoIncrement="false" autoIncrementSequenceName="cliente_id_cliente_seq" defaultValue="" name="id_cliente" nullable="0" physicalName="id_cliente" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks>sera numero comsecutivos</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB153" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB152" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB154" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX24" populated="true" UUID="71342605-1855-4851-ac2c-2cb428be6f49" clustered="false" name="Cuenta_bancaria_pk" physicalName="Cuenta_bancaria_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC25" populated="true" UUID="aa292c88-4846-4c90-af8c-e3a8e0c9a2d5" ascendingOrDescending="UNSPECIFIED" column-ref="COL16" name="id_cuenta_bancaria" physicalName="id_cuenta_bancaria" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB26" populated="true" UUID="c9837016-007b-4968-8905-15d2de36ed67" name="trasasiones" objectType="TABLE" physicalName="trasasiones" >
+   <remarks></remarks>
+   <folder id="FOLTAB261" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL27" populated="true" UUID="13d5a359-532b-4406-9266-f97e3a9ece0b" autoIncrement="true" autoIncrementSequenceName="trasasiones_id_trasacion_seq" defaultValue="" name="id_trasacion" nullable="0" physicalName="id_trasacion" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks>numero de trasacuion</remarks>
+    </column>
+    <column id="COL28" populated="true" UUID="5a49d102-c119-4ce2-872f-b7e504418d99" autoIncrement="false" autoIncrementSequenceName="trasasiones_ubicaion_seq" defaultValue="" name="ubicaion" nullable="0" physicalName="ubicaion" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>de donde se envia</remarks>
+    </column>
+    <column id="COL29" populated="true" UUID="39d7dbb0-26e4-4bcc-9a31-8bb90fe530c3" autoIncrement="false" autoIncrementSequenceName="trasasiones_moneda_seq" defaultValue="" name="moneda" nullable="0" physicalName="moneda" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>moenda</remarks>
+    </column>
+    <column id="COL30" populated="true" UUID="1018c5e9-ffdf-401d-9eb7-f851ae82bef1" autoIncrement="false" autoIncrementSequenceName="trasasiones_fecah_seq" defaultValue="" name="fecah" nullable="0" physicalName="fecah" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL31" populated="true" UUID="8f8975f8-2dd6-47f8-ba37-f2cceefae0f1" autoIncrement="false" autoIncrementSequenceName="trasasiones_descripcion_seq" defaultValue="" name="descripcion" nullable="0" physicalName="descripcion" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL32" populated="true" UUID="29d26ada-1abd-4377-8bd2-7e3058388360" autoIncrement="false" autoIncrementSequenceName="trasasiones_num_trasacion_seq" defaultValue="" name="num_trasacion" nullable="0" physicalName="num_trasacion" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>numero de trasacion</remarks>
+    </column>
+    <column id="COL33" populated="true" UUID="e92ad9ee-aa37-493a-97a8-69ba1de1d87c" autoIncrement="false" autoIncrementSequenceName="trasasiones_tip_trassacion_seq" defaultValue="" name="tip_trassacion" nullable="0" physicalName="tip_trassacion" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL34" populated="true" UUID="9b39969b-1749-410d-b1dd-d7cdf7af7dd4" autoIncrement="false" autoIncrementSequenceName="trasasiones_importe_seq" defaultValue="" name="importe" nullable="0" physicalName="importe" precision="10" referenceCount="1" scale="2" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL35" populated="true" UUID="c423fa06-a169-4df6-82a6-4bebe2ce90fb" autoIncrement="false" autoIncrementSequenceName="Cuenta_bancaria_id_cuenta_bancaria_seq" defaultValue="" name="id_cuenta_bancaria" nullable="0" physicalName="id_cuenta_bancaria" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks>nmm consecutivo</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB263" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB262" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB264" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX36" populated="true" UUID="9c7a75c8-b478-4526-9662-00c7c9c31abf" clustered="false" name="trasasiones_pk" physicalName="trasasiones_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC37" populated="true" UUID="eb976137-c0fe-4f07-8bbb-0b2d8b918c8c" ascendingOrDescending="UNSPECIFIED" column-ref="COL27" name="id_trasacion" physicalName="id_trasacion" />
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL38" populated="true" UUID="e2b51b31-545d-4fe2-9647-79399179e08d" deferrability="7" deleteRule="3" fk-table-ref="TAB15" fkCardinality="7" identifying="false" name="cliente_Cuenta_bancaria_fk" physicalName="cliente_Cuenta_bancaria_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP39" populated="true" UUID="7b1d127a-8d4e-48b7-b714-71b53445edad" fk-column-ref="COL23" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL40" populated="true" UUID="b176aa80-75ae-434a-b114-4b090205a6a8" deferrability="7" deleteRule="3" fk-table-ref="TAB26" fkCardinality="7" identifying="false" name="Cuenta_bancaria_trasasiones_fk" physicalName="Cuenta_bancaria_trasasiones_fk" pk-table-ref="TAB15" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP41" populated="true" UUID="d77ee9fe-f682-4701-b37a-d9d0d7159dbf" fk-column-ref="COL35" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL16" />
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.GenericDDLGenerator" allow-connection="true"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="99" y="335" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB15" x="408" y="259" bgColor="0xeeeeee" fgColor="0x206cff" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB26" x="436" y="491" bgColor="0xeeeeee" fgColor="0xcc0000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL38" pkConnection="0.3442622950819672" fkConnection="0.7446808510638298" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL40" pkConnection="0.5527426160337553" fkConnection="0.4345991561181435" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>

@@ -141,7 +141,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E5guHQnxpf9Bkp1orqkg-35" value="productos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="320" y="1800" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="1495" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E5guHQnxpf9Bkp1orqkg-37" value="id_productos (PK)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="144" y="1620" width="120" height="40" as="geometry" />
